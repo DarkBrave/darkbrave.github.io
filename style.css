@@ -1,6 +1,12 @@
 html {
   color: white;
-  background-image: url("./assets/background.png");
   background-repeat: repeat;
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+  background-image: 
+    /* top, transparent red */
+    linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ),
+    /* your image */
+    url("./assets/background.png");
 }
