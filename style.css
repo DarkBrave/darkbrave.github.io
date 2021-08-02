@@ -1,6 +1,7 @@
 html {
   color: white;
   background-repeat: repeat;
+  background-size: cover;
   background-image: 
     /* top, transparent red */
     linear-gradient(
