@@ -1,3 +1,4 @@
+@import url('http://fonts.cdnfonts.com/css/toon-around');
 html {
   color: white;
   background-repeat: repeat;
@@ -10,4 +11,7 @@ html {
     ),
     /* your image */
     url("./assets/background-big.png");
+}
+h1 {
+  font-family: 'Toon Around', sans-serif;
 }
