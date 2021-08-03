@@ -21,5 +21,6 @@ h1 {
 #splashDisplay {
   color: yellow;
   position: absolute;
-  z-index: 900%;
+  bottom: 8px;
+  right: 16px;
 }
