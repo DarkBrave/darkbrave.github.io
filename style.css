@@ -20,4 +20,6 @@ h1 {
 }
 #splashDisplay {
   color: yellow;
+  position: absolute;
+  z-index: 900%;
 }
