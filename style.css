@@ -11,13 +11,13 @@ html {
       rgba(0, 0, 0, 0.65)
     ),
     /* your image */
-    url("./assets/background-big.png");
+    url("./assets/background.png");
 }
 h1 {
   font-family: 'Toon Around', sans-serif;
   font-size: 600%;
   text-align: center;
-  margin: 0%;
+  margin: 0;
 }
 #splashDisplay {
   color: yellow;
