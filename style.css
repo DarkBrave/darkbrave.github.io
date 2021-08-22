@@ -5,6 +5,7 @@
 @font-face {  font-family: 'Georama';  src: url(./assets/fonts/georama.ttf);  }
 @font-face {  font-family: 'Toon Around';  src: url(./assets/fonts/toon-around.otf);  }
 @font-face {  font-family: 'Urbanist';  src: url(./assets/fonts/urbanist.ttf);  }
+@font-face {  font-family: 'Merriweather';  src: url(./assets/fonts/merriweather.ttf);  }
 
 html {
   color: white;
@@ -19,8 +20,11 @@ html {
     /* your image */
     url("./assets/background.png");
 }
-body {
-  margin: 100px;
+.margin {
+  margin-top: 60px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 70px;
 }
 h1 {
   font-family: 'Toon Around', sans-serif;
@@ -28,6 +32,11 @@ h1 {
   text-align: center;
   margin: 0;
 }
+
+h2 {
+  font-family: Merriweather, serif;
+}
+
 #splashDisplay {
   color: yellow;
   text-align: center;
@@ -35,5 +44,21 @@ h1 {
 }
 
 p {
-  font-family: 'Urbanist';
+  font-family: 'Urbanist', sans-serif;
+}
+
+a {
+  color: #bfbfbf;
+  text-decoration: none;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+#footer {
+  margin-top: 0px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+  color: #4f4f4f;
 }
