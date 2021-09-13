@@ -1,4 +1,3 @@
-# darkbrave_
+# darkbrave.github.io
 My GitHub Page Repository
-
-Hey! Get Back to Index.html!
+All assets (exceot /assets/icons/) are owned by DarkBrave_
