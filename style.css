@@ -10,16 +10,6 @@
 
 html {
   color: white;
-  background-repeat: repeat;
-  background-size: cover;
-  background-image:
-    /* top, transparent red */
-    linear-gradient(
-      rgba(0, 0, 0, 0.65),
-      rgba(0, 0, 0, 0.65)
-    ),
-    /* your image */
-    url("./assets/background.png");
 }
 .margin {
   margin: 2% 8% 5.6%;

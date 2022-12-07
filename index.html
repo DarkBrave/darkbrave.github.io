@@ -5,6 +5,7 @@
  <head>
   <link rel="icon" type="image/png" href="./assets/icon.png">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./bar.css">
   <meta name="description" content="DarkBrave's Website For Their Projects And Information.">
   <title>DarkBrave's Website</title>
  </head>
@@ -12,30 +13,18 @@
  <body>
   <div class="margin">
 
-  <div class="title">
-   <h1>DarkBrave's Website</h1>
-   <b><div id="splashDisplay"></div></b>
+  <div class="title-bar">
+  <div class="title-text"><a href="/">DarkBrave's Site</a></div>
+  <div class="title-splash" id="splashDisplay"></div>
+  <div class="title-links">
+    <a class="title-link" href="./projects/">Projects</a>
+    <a class="title-link" href="./updates/">Updates</a>
+    <a class="title-link" href="./ramblings/">Ramblings</a>
+    <a class="title-link" href="./about/">About</a>
   </div>
-  <script>
-    (function newFact() {
-      const facts = ['Now with Splash Text!', 'Alot of fun!', 'Python needs semicolons!', 'Can I have some pizza?', 'Java > Python', 'Check out LightBrave_!', 'Jeb is stuck!',
-      'Made in Atom!', '#SteveIsInSmash', 'YEET', 'Click!', 'Without Color!', 'Donate to Charity!', 'When will this be over?!', 'Free Candy!', 'Now with JavaScript!',
-      'We finally got a Cave Update!', 'Sssss... BOOM!', 'Why am I doing this?', 'Yummy!', 'Subscribe!', '6e6576657220676f6e6e61206769766520796f75207570206e6576657220676f6e6e6e61206c657420796f7520646f776e',
-      'rickrolled', 'Read It!', 'Java Edition > Bedrock Edition', 'Hello There!', 'Map Art Takes FOREVER!', 'Fabric > Forge', 'Fabric Mods > Optifine', '#Website',
-      'This is cool!', 'DB_ writing splash texts', 'We are #1!', 'With Easter Eggs!', 'Yes, CSS', 'Hes now hacking, he just has a really good gaming chair!', 'Optical!',
-      'Splash Text!', '(Inset Splash Text Here)', 'Noe with a Discord server!', 'youtube.com/c/darkbravestuff', 'This was randomly selected!', 'Productive!', 'Read a book!', 'Random Random Random Random...',
-      'This splash text was randomly selected from a massive list DarkBrave wrote, which means that you are fairly lucky you got this one out of the tons of other ones',
-      'Now with CSS!', 'nothing here :)', '<a href="https://darkbrave.github.io/assets/logo.png">click here for my logo!</a>', 'We need better public transportation!', 'Who here likes pie?',
-      'I like pizza with everything on it! (except pineapple, ive tried it)', 'Framework laptop looking kind of cool!', 'Animal Crossing is really amazing!', 'The switch is not a portable, its a handheld!',
-      'I beat my brother in MarioKart!', '3DS is the best handheld system!', 'WTF IS AN IMAGINARY NUMBER!?!?!?!?', 'I use IntelliJ IDEA!', 'Right to repair is important!',
-      'Should I stop writing these?', 'Will COVID-19 ever end? (maybe in ∞ years)', 'You (and I) could be more productive right now, instead of readin splash texts!',
-      'BBQ is really yummy!', 'Since emulators exist, that makes the PC the ultimate gaming system!', 'Nintendo needs to make the 3DS again!', 'Imagine a 3DS with the power of the Switch, but with SIM support.',
-      'I update the splash texts every now and then!', 'I put my random thoughts here!', 'What if we used short-distance rockets to get to work/school?',
-      'Why is everything a subscription now?', 'I made the DarkBrave logo!', 'I use a Wacom Intuos S BT 2018!', 'Minecraft is my desert island game!', 'Im gonna stop writing these for now...'];
-      const randomFact = Math.floor(Math.random() * facts.length);
-      document.getElementById('splashDisplay').innerHTML = facts[randomFact];
-    })();
-  </script>
+</div>
+<div class="black-overlay"></div>
+<div class="tv-static"></div>
   <p>
       Welcome to my website where I post my projects and things I'm doing at the moment.<br><br>Hi, my name is DarkBrave! I code in Java and make small GUI and non GUI apps,
       as well as Minecraft plugins made with the Bukkit/Spigot server plugin API. I've also done some small things in the Unity game engine with C#, but I've also tried other tools as well.
